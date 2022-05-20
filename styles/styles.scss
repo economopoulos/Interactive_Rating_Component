@@ -23,6 +23,10 @@ $very-dark-blue: hsl(216, 12%, 8%);
     height: 100vh;
     line-height: 1.4;
 
+    .hide {
+      display: none;
+    }
+
     .container {
       background-color: #19202a;
       max-width: 400px;
