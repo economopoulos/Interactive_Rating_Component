@@ -31,6 +31,30 @@
   background-color: #19202a;
   max-width: 400px;
   border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* body .container .center-content {
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 * body .container .content {
@@ -41,6 +65,26 @@
   background-color: #263037b7;
   padding: 0.8em;
   border-radius: 50%;
+}
+
+* body .container .content .center-txt {
+  text-align: center;
+}
+
+* body .container .content .msg {
+  color: #fb7413;
+  background-color: #263037b7;
+  text-align: center;
+  padding: 0.5em 0.8em;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+* body .container .content .msg:hover,
+* body .container .content .msg:focus {
+  cursor: default;
+  color: #fb7413;
+  background-color: #263037b7;
 }
 
 * body .container .content .question {
@@ -68,6 +112,16 @@
           align-items: center;
 }
 
+* body .container .content .rating .number:hover {
+  background-color: #fb7413;
+  color: white;
+}
+
+* body .container .content .rating .selected {
+  background-color: #959eac !important;
+  color: white !important;
+}
+
 * body .container .content .rating .number {
   background-color: #263037b7;
   border-radius: 50%;
@@ -84,7 +138,7 @@
 * body .container .content .btn {
   color: white;
   background-color: #fb7413;
-  padding: .8em 2em;
+  padding: 0.8em 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,6 +175,6 @@
 .attribution a {
   text-decoration: none;
   color: #fb7413;
-  opacity: .8;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=styles.css.map */
