@@ -24,7 +24,7 @@ $very-dark-blue: hsl(216, 12%, 8%);
     line-height: 1.4;
 
     .hide {
-      display: none;
+      display: none !important;
     }
 
     .container {
